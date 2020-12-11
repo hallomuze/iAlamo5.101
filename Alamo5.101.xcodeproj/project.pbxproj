@@ -13,11 +13,13 @@
 		6C524A05258365DB00713D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C524A03258365DB00713D9F /* Main.storyboard */; };
 		6C524A07258365DC00713D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C524A06258365DC00713D9F /* Assets.xcassets */; };
 		6C524A0A258365DC00713D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C524A08258365DC00713D9F /* LaunchScreen.storyboard */; };
-		ED269A18FA102A686019BB3A /* Pods_Alamo5_101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE6FE1EF268A1FB2DF78F17 /* Pods_Alamo5_101.framework */; };
+		A5189AD3452A29D719D0FFE6 /* Pods_Alamo5_101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5173207E797169CB72ED8794 /* Pods_Alamo5_101.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		550B626F7C4D81D3AD53C9B3 /* Pods-Alamo5.101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamo5.101.debug.xcconfig"; path = "Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101.debug.xcconfig"; sourceTree = "<group>"; };
+		210EB55600B52726F9540D5C /* Pods-Alamo5.101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamo5.101.debug.xcconfig"; path = "Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101.debug.xcconfig"; sourceTree = "<group>"; };
+		49C7CD462D273BB77F9D54B3 /* Pods-Alamo5.101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamo5.101.release.xcconfig"; path = "Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101.release.xcconfig"; sourceTree = "<group>"; };
+		5173207E797169CB72ED8794 /* Pods_Alamo5_101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamo5_101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5249FA258365DB00713D9F /* Alamo5.101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alamo5.101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5249FD258365DB00713D9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C5249FF258365DB00713D9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +28,6 @@
 		6C524A06258365DC00713D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C524A09258365DC00713D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C524A0B258365DC00713D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8AE6FE1EF268A1FB2DF78F17 /* Pods_Alamo5_101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alamo5_101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D35DE209D8A2B35F76F22200 /* Pods-Alamo5.101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamo5.101.release.xcconfig"; path = "Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,38 +35,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED269A18FA102A686019BB3A /* Pods_Alamo5_101.framework in Frameworks */,
+				A5189AD3452A29D719D0FFE6 /* Pods_Alamo5_101.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49645D2C083D0916E367953D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				550B626F7C4D81D3AD53C9B3 /* Pods-Alamo5.101.debug.xcconfig */,
-				D35DE209D8A2B35F76F22200 /* Pods-Alamo5.101.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		5A4FDC75CBA65C6A9A5AA545 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8AE6FE1EF268A1FB2DF78F17 /* Pods_Alamo5_101.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		6C5249F1258365DB00713D9F = {
 			isa = PBXGroup;
 			children = (
 				6C5249FC258365DB00713D9F /* Alamo5.101 */,
 				6C5249FB258365DB00713D9F /* Products */,
-				49645D2C083D0916E367953D /* Pods */,
-				5A4FDC75CBA65C6A9A5AA545 /* Frameworks */,
+				B98230CA39A9948E901E3AE4 /* Pods */,
+				EF972232485B9FF450175275 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +74,24 @@
 			path = Alamo5.101;
 			sourceTree = "<group>";
 		};
+		B98230CA39A9948E901E3AE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				210EB55600B52726F9540D5C /* Pods-Alamo5.101.debug.xcconfig */,
+				49C7CD462D273BB77F9D54B3 /* Pods-Alamo5.101.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF972232485B9FF450175275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5173207E797169CB72ED8794 /* Pods_Alamo5_101.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,11 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C524A0E258365DC00713D9F /* Build configuration list for PBXNativeTarget "Alamo5.101" */;
 			buildPhases = (
-				282B39D37C1B3E00BAC14B49 /* [CP] Check Pods Manifest.lock */,
+				FC01898003C0ACB2AF28C7CD /* [CP] Check Pods Manifest.lock */,
 				6C5249F6258365DB00713D9F /* Sources */,
 				6C5249F7258365DB00713D9F /* Frameworks */,
 				6C5249F8258365DB00713D9F /* Resources */,
-				2E3B81AA090CD4E9549E0529 /* [CP] Embed Pods Frameworks */,
+				C4DAA5C43C7BC4B091812805 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,7 +160,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		282B39D37C1B3E00BAC14B49 /* [CP] Check Pods Manifest.lock */ = {
+		C4DAA5C43C7BC4B091812805 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC01898003C0ACB2AF28C7CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,23 +197,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2E3B81AA090CD4E9549E0529 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alamo5.101/Pods-Alamo5.101-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -352,7 +352,7 @@
 		};
 		6C524A0F258365DC00713D9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 550B626F7C4D81D3AD53C9B3 /* Pods-Alamo5.101.debug.xcconfig */;
+			baseConfigurationReference = 210EB55600B52726F9540D5C /* Pods-Alamo5.101.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -372,7 +372,7 @@
 		};
 		6C524A10258365DC00713D9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D35DE209D8A2B35F76F22200 /* Pods-Alamo5.101.release.xcconfig */;
+			baseConfigurationReference = 49C7CD462D273BB77F9D54B3 /* Pods-Alamo5.101.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
