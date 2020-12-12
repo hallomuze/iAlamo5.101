@@ -34,9 +34,7 @@ struct Api {
                 
             } catch let error {
                 print("Error result: \(error)")
-                //wLog("decoding err:\(error.localizedDescription)")
             }
-            
         }
     }
 }

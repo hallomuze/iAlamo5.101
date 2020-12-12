@@ -15,8 +15,14 @@
 		6C524A0A258365DC00713D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C524A08258365DC00713D9F /* LaunchScreen.storyboard */; };
 		6CCBD80E25836D93008FC884 /* mysecret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD80D25836D93008FC884 /* mysecret.swift */; };
 		6CCBD81125836DAF008FC884 /* UnsplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD81025836DAF008FC884 /* UnsplashModel.swift */; };
-		6CCBD81425836EF7008FC884 /* unsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD81325836EF7008FC884 /* unsplash.swift */; };
-		6CCBD81925836FAB008FC884 /* flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD81825836FAB008FC884 /* flickr.swift */; };
+		6CCBD81425836EF7008FC884 /* unsplash_responseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD81325836EF7008FC884 /* unsplash_responseJSON.swift */; };
+		6CCBD81925836FAB008FC884 /* alamo_Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD81825836FAB008FC884 /* alamo_Decodable.swift */; };
+		6CCBD81D258370EA008FC884 /* jsonCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD81C258370EA008FC884 /* jsonCodable.swift */; };
+		6CCBD82125838096008FC884 /* alamo_responseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD82025838096008FC884 /* alamo_responseJSON.swift */; };
+		6CCBD825258383F5008FC884 /* alamo_responseJSON_verbose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD824258383F5008FC884 /* alamo_responseJSON_verbose.swift */; };
+		6CCBD8282583856A008FC884 /* simplePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD8272583856A008FC884 /* simplePost.swift */; };
+		6CCBD830258387A3008FC884 /* flickrrr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD82F258387A3008FC884 /* flickrrr.swift */; };
+		6CCBD837258388F3008FC884 /* jsonRaw_help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBD836258388F3008FC884 /* jsonRaw_help.swift */; };
 		A5189AD3452A29D719D0FFE6 /* Pods_Alamo5_101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5173207E797169CB72ED8794 /* Pods_Alamo5_101.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +40,14 @@
 		6C524A0B258365DC00713D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CCBD80D25836D93008FC884 /* mysecret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mysecret.swift; sourceTree = SOURCE_ROOT; };
 		6CCBD81025836DAF008FC884 /* UnsplashModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsplashModel.swift; sourceTree = "<group>"; };
-		6CCBD81325836EF7008FC884 /* unsplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unsplash.swift; sourceTree = "<group>"; };
-		6CCBD81825836FAB008FC884 /* flickr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickr.swift; sourceTree = "<group>"; };
+		6CCBD81325836EF7008FC884 /* unsplash_responseJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unsplash_responseJSON.swift; sourceTree = "<group>"; };
+		6CCBD81825836FAB008FC884 /* alamo_Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alamo_Decodable.swift; sourceTree = "<group>"; };
+		6CCBD81C258370EA008FC884 /* jsonCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonCodable.swift; sourceTree = "<group>"; };
+		6CCBD82025838096008FC884 /* alamo_responseJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alamo_responseJSON.swift; sourceTree = "<group>"; };
+		6CCBD824258383F5008FC884 /* alamo_responseJSON_verbose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alamo_responseJSON_verbose.swift; sourceTree = "<group>"; };
+		6CCBD8272583856A008FC884 /* simplePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplePost.swift; sourceTree = "<group>"; };
+		6CCBD82F258387A3008FC884 /* flickrrr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickrrr.swift; sourceTree = "<group>"; };
+		6CCBD836258388F3008FC884 /* jsonRaw_help.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonRaw_help.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +87,10 @@
 				6C5249FD258365DB00713D9F /* AppDelegate.swift */,
 				6C5249FF258365DB00713D9F /* SceneDelegate.swift */,
 				6C524A01258365DB00713D9F /* ViewController.swift */,
-				6CCBD81625836F6A008FC884 /* APIs */,
-				6C524A03258365DB00713D9F /* Main.storyboard */,
+				6CCBD81625836F6A008FC884 /* Get */,
+				6CCBD82A2583869B008FC884 /* Post */,
 				6CCBD81025836DAF008FC884 /* UnsplashModel.swift */,
+				6C524A03258365DB00713D9F /* Main.storyboard */,
 				6C524A06258365DC00713D9F /* Assets.xcassets */,
 				6C524A08258365DC00713D9F /* LaunchScreen.storyboard */,
 				6C524A0B258365DC00713D9F /* Info.plist */,
@@ -85,13 +98,26 @@
 			path = Alamo5.101;
 			sourceTree = "<group>";
 		};
-		6CCBD81625836F6A008FC884 /* APIs */ = {
+		6CCBD81625836F6A008FC884 /* Get */ = {
 			isa = PBXGroup;
 			children = (
-				6CCBD81325836EF7008FC884 /* unsplash.swift */,
-				6CCBD81825836FAB008FC884 /* flickr.swift */,
+				6CCBD836258388F3008FC884 /* jsonRaw_help.swift */,
+				6CCBD82025838096008FC884 /* alamo_responseJSON.swift */,
+				6CCBD824258383F5008FC884 /* alamo_responseJSON_verbose.swift */,
+				6CCBD81C258370EA008FC884 /* jsonCodable.swift */,
+				6CCBD81825836FAB008FC884 /* alamo_Decodable.swift */,
+				6CCBD81325836EF7008FC884 /* unsplash_responseJSON.swift */,
+				6CCBD82F258387A3008FC884 /* flickrrr.swift */,
 			);
-			path = APIs;
+			path = Get;
+			sourceTree = "<group>";
+		};
+		6CCBD82A2583869B008FC884 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				6CCBD8272583856A008FC884 /* simplePost.swift */,
+			);
+			path = Post;
 			sourceTree = "<group>";
 		};
 		B98230CA39A9948E901E3AE4 /* Pods */ = {
@@ -227,9 +253,15 @@
 			files = (
 				6C524A02258365DB00713D9F /* ViewController.swift in Sources */,
 				6CCBD81125836DAF008FC884 /* UnsplashModel.swift in Sources */,
-				6CCBD81425836EF7008FC884 /* unsplash.swift in Sources */,
+				6CCBD830258387A3008FC884 /* flickrrr.swift in Sources */,
+				6CCBD81425836EF7008FC884 /* unsplash_responseJSON.swift in Sources */,
 				6CCBD80E25836D93008FC884 /* mysecret.swift in Sources */,
-				6CCBD81925836FAB008FC884 /* flickr.swift in Sources */,
+				6CCBD825258383F5008FC884 /* alamo_responseJSON_verbose.swift in Sources */,
+				6CCBD82125838096008FC884 /* alamo_responseJSON.swift in Sources */,
+				6CCBD81925836FAB008FC884 /* alamo_Decodable.swift in Sources */,
+				6CCBD8282583856A008FC884 /* simplePost.swift in Sources */,
+				6CCBD837258388F3008FC884 /* jsonRaw_help.swift in Sources */,
+				6CCBD81D258370EA008FC884 /* jsonCodable.swift in Sources */,
 				6C5249FE258365DB00713D9F /* AppDelegate.swift in Sources */,
 				6C524A00258365DB00713D9F /* SceneDelegate.swift in Sources */,
 			);
