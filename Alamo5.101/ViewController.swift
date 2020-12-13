@@ -17,8 +17,8 @@ class ViewController: UIViewController {
 //        Api.fetchJsonPlaceHolder_codable()
 //        Api.fetchDic()
 //        Api.fetchVerbose()
-        Api.fetchVerboseDic()
-//        Api.alamo_Decodable_func()
+//        Api.fetchVerboseDic()
+        Api.alamo_Decodable_func()
 //        postTest()
 //        Api.fetchFlickr()
         
