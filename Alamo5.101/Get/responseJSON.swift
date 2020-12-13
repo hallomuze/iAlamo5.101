@@ -14,7 +14,7 @@ extension Api {
     static func fetchDic() {
         
         AF.request(reqUrl)
-            .validate()
+           
             .responseJSON { response in
                 
                 switch response.result {

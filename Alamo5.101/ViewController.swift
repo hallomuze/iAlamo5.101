@@ -12,13 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+//        Api.fetchDic()
+//        Api.seeRequest()
 //        Api.fetchJsonPlaceHolder_codable()
 //        Api.fetchDic()
 //        Api.fetchVerbose()
+        Api.fetchVerboseDic()
 //        Api.alamo_Decodable_func()
 //        postTest()
-        Api.fetchFlickr()
+//        Api.fetchFlickr()
         
     }
 }
