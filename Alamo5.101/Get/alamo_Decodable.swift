@@ -58,7 +58,9 @@ extension Api {
         func decodeFast() {
             resp.responseDecodable(of: UserData.self){ resp in
                 
-                debugPrint(resp)// to see all info, body {} in case of 404
+                print("바디만", resp.data.map { String(decoding: $0, as: UTF8.self) } ?? "No data.")
+                
+                //debugPrint(resp)// to see all info, body {} in case of 404
                 
                 switch resp.result {
                 case .success(let userDatas):
